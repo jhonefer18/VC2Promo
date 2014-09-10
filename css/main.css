@@ -97,10 +97,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ==========================================================================
+   Index.html
+   ========================================================================== */
+
+
+
 main > section > figure > img{
 
     width:100%;
-    position:absolute;
+    position:fixed;
     top:0;
     left:0;
     z-index:-1;
@@ -110,22 +116,32 @@ main > section > figure > img{
 
 header > figure > img{
 
-
+    position:fixed;
+    top:0;
+    left:0;
     width:20%;
-    height:20%;
-    margin:1em;
+    margin:2em;
 
 }
+
+nav{
+
+
+   width:100%;
+   margin-top:250px;
+
+}
+
 
 .welcome{
 
     text-align:center;
 
-
 }
 
 
 .ca-menu{
+
     padding:0;
     margin:20px auto;
     width: 1020px;
@@ -283,19 +299,19 @@ header > figure > img{
 
 
 @font-face {
-    font-family: 'WebSymbolsRegular';
-    src: url('websymbols/websymbols-regular-webfont.eot');
-    src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     font-family: 'WebSymbolsRegular';
+     src: url('websymbols/websymbols-regular-webfont.eot');
+     src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
         url('websymbols/websymbols-regular-webfont.woff') format('woff'),
         url('websymbols/websymbols-regular-webfont.ttf') format('truetype'),
         url('websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+     font-weight: normal;
+     font-style: normal;
 }
 
 footer > figure > img{
 
-     position:absolute;
+     position:fixed;
      bottom:0;
      left:0;
      width:100%;
@@ -303,6 +319,23 @@ footer > figure > img{
 
 
 }
+
+
+
+/* ==========================================================================
+   Tour-no-sistema
+   ========================================================================== */
+
+
+
+#content-tour{
+
+     width:100%;
+     margin-top:250px;
+     text-align:center;
+
+}
+
 
 
 
