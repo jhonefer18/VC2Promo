@@ -561,19 +561,8 @@ p{
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-   
-   nav{display:none;}
 }
 
-@media screen and ( max-height: 800px ){
-    
-    nav{
-    	
-    	
-    	margin-top:100px;
-    	
-    }
-    
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
