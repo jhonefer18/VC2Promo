@@ -559,9 +559,20 @@ p{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 155em) {
     /* Style adjustments for viewports that meet the condition */
+
+   nav{display:none;}
 }
+
+
+@media screen and ( max-height: 800px ){
+
+    nav{
+
+    	margin-top:100px;
+
+    }
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
