@@ -14,6 +14,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -25,6 +27,7 @@
         <!-- Add your site or application content here -->
         <main>
          <section id="container">
+           <article id="return-panel"><a href="index.html"><h3>Voltar</h3></a></article>
            <figure>
              <img src="img/bg.png" alt="logo">
            </figure>
@@ -38,57 +41,21 @@
         <header id="welcome-wrap">
           <hgroup class="welcome">
              <h1>VC2 Promo Report Mananger</h1>
-             <h3>Seja bem-vindo!</h3>
+             <h3>Selecione um cliente</h3>
            </hgroup>
          </header>
          <br />
-          <ul class="ca-menu">
-                    <li>
-                        <a href="tour.html">
-                            <span class="ca-icon">I</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Tour no Sistema</h2>
-                                <h3 class="ca-sub">Conheça-nos!</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="info.html">
-                            <span class="ca-icon">S</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Informações</h2>
-                                <h3 class="ca-sub">Conheça nossos padrões</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="cliente.html">
-                            <span class="ca-icon">C</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Campanhas</h2>
-                                <h3 class="ca-sub">Encontre seu Job</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="ca-icon">d</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Dúvidas</h2>
-                                <h3 class="ca-sub">Diga-nos sua dificuldade</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="fotos.html">
-                            <span class="ca-icon">I</span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Input de Fotos</h2>
-                                <h3 class="ca-sub">Coloque 5 fotos por post</h3>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+          <section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+					<a href="campanha.html"><h1>Reckitt Benckiser</h1></a>
+          <a href="#"><h1>Campari</h1></a>
+          <a href="#"><h1>Cliente </h1></a>
+				</div>
+				<nav>
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+
         </nav><!-- EndMenu -->
         <footer>
           <figure>
@@ -100,6 +67,13 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.gallery.js"></script>
+    		<script type="text/javascript">
+		    	$(function() {
+				   $('#dg-container').gallery();
+			   });
+		    </script/>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
