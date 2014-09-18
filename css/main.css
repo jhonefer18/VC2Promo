@@ -383,6 +383,7 @@ p{
     color:white !important;
     text-align:center;
     cursor:pointer;
+    z-index:1;
 
   /*borders while transitioning */
 
@@ -627,6 +628,88 @@ hr{
     -webkit-animation: moveFromBottom 500ms ease;
     -moz-animation: moveFromBottom 500ms ease;
     -ms-animation: moveFromBottom 500ms ease;
+}
+
+
+/* ==========================================================================
+   Digitados List Item
+   ========================================================================== */
+
+
+.navbox {
+  	position: absolute;
+    top:16%;
+    left:50%;
+    width:600px;
+    margin-left:-250px;
+    z-index:0;
+
+
+}
+
+ul.nav {
+	  list-style: none;
+	  display: block;
+	  width: 200px;
+	  position: relative;
+	  top: 100px;
+	  left: 100px;
+	  padding: 60px 0 60px 0;
+	  background: url(../img/shad2.png) no-repeat;
+	  -webkit-background-size: 50% 100%;
+
+}
+
+li {
+  	margin: 5px 0 0 0;
+
+}
+
+ul.nav li a {
+	  -webkit-transition: all 0.3s ease-out;
+	  background: #8FBC8F url(../img/border.png) no-repeat;
+	  color: white;
+	  padding: 7px 15px 7px 15px;
+	  -webkit-border-top-right-radius: 10px;
+ 	  -webkit-border-bottom-right-radius: 10px;
+	  width: 280px;
+	  display: block;
+	  text-decoration: none;
+	  -webkit-box-shadow: 2px 2px 4px #888;
+
+}
+
+ul.nav li a:hover {
+  	background: #ebebeb url(../img/border.png) no-repeat;
+  	color: #67a5cd;
+  	padding: 7px 15px 7px 30px;
+
+}
+
+
+#free-footer > figure > img{
+
+   position:relative;
+   margin-top:1300px !important;
+
+
+}
+
+#welcome-wrap-free{
+   position: absolute;
+   width: 280px;
+   top: 28%;
+   left: 50%;
+   margin-left: -140px;
+   z-index:-3;
+   text-align:center;
+
+}
+
+#return-panel{
+
+
+
 }
 
 /* ==========================================================================
