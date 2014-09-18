@@ -697,20 +697,21 @@ ul.nav li a:hover {
 
 #welcome-wrap-free{
    position: absolute;
-   width: 280px;
-   top: 28%;
+   width: 310px;
+   top: 25%;
    left: 50%;
-   margin-left: -140px;
+   margin-left: -150px;
    z-index:-3;
    text-align:center;
+   background:#ebebeb;
 
 }
 
-#return-panel{
 
 
 
-}
+
+
 
 /* ==========================================================================
    Helper classes
